@@ -4,11 +4,12 @@ class Webkitgtk < Formula
   homepage "https://webkitgtk.org"
   url "https://webkitgtk.org/releases/webkitgtk-2.18.4.tar.xz"
   sha256 "87b6bb9a6065b949ecbe6191313c43e57ad28efdf1f2b5e763405093520632b8"
-  revision 1
+  revision 2
 
   depends_on "cmake" => :build
   depends_on "gtk+3"
   depends_on "libsoup"
+  depends_on "libsecret"
   depends_on "enchant"
   depends_on "webp"
 
